@@ -1,0 +1,4 @@
+input_string=raw_input("Write a sequence of words that are separated by commas:\n")
+li = list(input_string.split(",")) 
+li.sort()
+print li
